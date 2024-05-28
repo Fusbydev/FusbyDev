@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+body {
+    background-color: black;
+    padding-bottom: 100px;
+}
+.navbar{
+    background-color: rgb(252, 146, 40)!important;
+}
+.offcanvas {
+    background-color: rgb(252, 146, 40)!important;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    
+}
+
+.nav-link {
+    font-family: "Bebas Neue";
+}
+.navbar-toggler {
+    border: none;
+}
+.container {
+    height: auto;
+    width: 100%;
+}
+h1 {
+    color: rgb(252, 146, 40);
+    font-family: "Bebas Neue";
+    font-size: 40px;
+}
+.pfp img {
+    border-radius: 10px;
+    filter: blur(10px);
+}
+.pfp img:hover {
+    filter: blur(0);
+}
+.myImage img {
+    filter: brightness(80%);
+    width: 300px;
+    filter: drop-shadow(1px 4px 6px rgba(252, 146, 40, 2));
+}
+.line {
+    height: 1px;
+    width: 100%;
+    background-color: rgb(252, 146, 40);
+}
+.bio {
+    font-size: 25px;
+    font-family: "Bebas Neue";
+    color:  rgb(252, 146, 40);
+}
+.progress-bar {
+    background-color: rgb(252, 146, 40)!important;
+    color: black;
+    font-weight: bold;
+}
+.progress {
+    background-color: transparent;
+    border: 1px solid rgb(252, 146, 40);
+
+}
+i {
+    color: #f8f8f8;
+}
+#aboutMe h1, .project h1 {
+    color: rgb(143, 143, 222);
+}
+.project a{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(13, 122, 223);
+    font-family: "Bebas Neue";
+
+}
+.project i {
+    color: rgb(13, 122, 223);
+}
+.projects {
+    border-radius: 10px;
+    filter: drop-shadow(1px 1px 20px rgba(252, 146, 40, 2));
+}
